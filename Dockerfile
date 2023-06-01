@@ -13,6 +13,7 @@ RUN apk add --no-cache \
   php81-ctype \
   php81-curl \
   php81-dom \
+  php81-fileinfo \
   php81-fpm \
   php81-gd \
   php81-intl \
@@ -24,7 +25,6 @@ RUN apk add --no-cache \
   php81-session \
   php81-xml \
   php81-xmlreader \
-  php81-fileinfo \
   supervisor
 
 # Configure nginx - http
